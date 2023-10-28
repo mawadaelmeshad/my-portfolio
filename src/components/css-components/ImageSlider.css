@@ -1,0 +1,22 @@
+/* src/ImageSlider.scss */
+.image-slider {
+    width: 35%;
+    margin: auto;
+}
+.image-slider .slick-dots {
+    bottom: -30px;
+}
+.image-slider img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 50%;
+}
+@media(max-width :991px){
+    .image-slider {
+        width: 80%;
+        background-color: brown;
+        background-size: contain;
+        justify-content: center;
+    }
+}
