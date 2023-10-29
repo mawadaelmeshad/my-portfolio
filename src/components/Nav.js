@@ -18,6 +18,9 @@ import {
 
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import './css-components/nav.css';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 function Navv() {
     const [showBasic, setShowBasic] = useState(false);
@@ -25,7 +28,7 @@ function Navv() {
     return (
         <MDBNavbar expand='lg' light bgColor='light'>
         <MDBContainer fluid>
-            <MDBNavbarBrand href='#' className='custom-nav'>Mawada</MDBNavbarBrand>
+            <MDBNavbarBrand href='#' className='custom-nav'>Mawadah <span><FontAwesomeIcon icon={faHeart} /></span></MDBNavbarBrand>
 
             <MDBNavbarToggler
             aria-controls='navbarSupportedContent'
@@ -39,16 +42,17 @@ function Navv() {
             <MDBCollapse navbar show={showBasic}>
             <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0'>
                 <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#'>
-                    About
-                </MDBNavbarLink>
+                <MDBNavbarLink href='#about' className='navitem'>About</MDBNavbarLink>
                 </MDBNavbarItem>
                 <MDBNavbarItem>
-                <MDBNavbarLink href='#'>Link</MDBNavbarLink>
+                <MDBNavbarLink href='#' className='navitem'>Projects</MDBNavbarLink>
+                </MDBNavbarItem>
+                <MDBNavbarItem>
+                <MDBNavbarLink href='#' className='navitem'>Contact</MDBNavbarLink>
                 </MDBNavbarItem>
 
                 <MDBNavbarItem>
-                <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+                {/* <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
                     <div>
                     <a href='' className='me-4 text-reset'>
                         <MDBIcon fab icon="facebook-f" />
@@ -69,13 +73,8 @@ function Navv() {
                         <MDBIcon fab icon="github" />
                     </a>
                     </div>
-                </section>
-                </MDBNavbarItem>
-
-                <MDBNavbarItem>
-                <MDBNavbarLink disabled href='#' tabIndex={-1} aria-disabled='true'>
-                    Disabled
-                </MDBNavbarLink>
+                
+                </section> */}
                 </MDBNavbarItem>
             </MDBNavbarNav>
             </MDBCollapse>

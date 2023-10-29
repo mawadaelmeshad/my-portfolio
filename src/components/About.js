@@ -11,13 +11,13 @@ function About(){
         flower3
     ];
     return(
-        <div className="about">
+        <div className="about" id="about">
             <div className="title">about me</div>
             <div className="contain">
                 <div className="contain-p">
-                <p>I am a passionate junior computer science student with a deep love for problem-solving and a strong interest in front-end development.</p>
-                    <p>My journey in the field of technology has been a continuous exploration of learning and gaining valuable experiences. I thrive on the challenges of creating intuitive user interfaces and solving real-world problems through code.</p>  
-                    <p>With an insatiable curiosity and a commitment to excellence, I am dedicated to furthering my knowledge, embracing new technologies, and making a meaningful impact in the world of web development. I'm excited to continue this incredible journey and see where it takes me.</p>
+                    <p>I am a passionate junior computer science student with a deep love for problem-solving and a strong interest in front-end development.</p>
+                        <p>My journey in the field of technology has been a continuous exploration of learning and gaining valuable experiences. I thrive on the challenges of creating intuitive user interfaces and solving real-world problems through code.</p>  
+                        <p>With an insatiable curiosity and a commitment to excellence, I am dedicated to furthering my knowledge, embracing new technologies, and making a meaningful impact in the world of web development. I'm excited to continue this incredible journey and see where it takes me.</p>
                     </div>
                 {/* <ImageSlider images={images} /> */}
                 <div className="contain-tech">

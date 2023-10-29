@@ -2,12 +2,13 @@
 .about{
     font-family: 'Gabarito', sans-serif;
     overflow: hidden;
-    align-items: center;
+    /* align-items: center; */
 }
 .about .contain{
-    margin: 0px 64px;
+    margin-left: 2rem;
+    margin-right: 2rem;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     gap: 0rem;
 }
 .title{
@@ -16,26 +17,24 @@
     text-transform: capitalize;
     font-weight: 400;
     margin-top: 2rem;
+    margin-bottom: 4rem;
 }
 .about .contain p{
-    width: 60%;
+    /* width: 60%; */
     text-align: left;
-    /* margin-left: 2rem;
-    margin-right: 2rem; */
     font-size: 1.3rem;
 }
 .about .contain-tech{
-    width: 60%;
+    /* width: 60%; */
     text-align: left;
-    /* margin-right: 2rem; */
 }
 .about .contain-tech h2{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: rgb(235, 111, 138);
 }
 .about .contain-tech ul {
     list-style: none;
-    font-size: 1rem
+    font-size: 1.1rem
 }
 .about .contain-tech ul li::before {
     content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */

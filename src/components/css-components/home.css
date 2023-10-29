@@ -13,12 +13,20 @@
     gap: 13rem;
 }
 .myphoto{
+    position: relative;
+    top: 1%; 
+    left: 50%;
     margin-top: -7rem;
     width: 40rem;
+    object-fit: cover; 
 }
 .contain-words{
+    z-index: 1;
+    position: absolute;
+    top: 35%; /* Adjust the vertical position as needed */
+    left: 2%;
     text-align: start;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
     color: white;
     font-weight: 400;
 }
@@ -34,4 +42,25 @@
     color: rgb(235, 87, 119);
     font-weight: 600;
     font-size: 2.5rem;
+
+}
+@media(max-width :536px){
+    .myphoto{
+        position: relative;
+        /* top: 1%; 
+        left: 50%;
+        margin-top: -7rem; */
+        width: 40rem;
+        object-fit: cover; 
+    }
+    .contain-words{
+        z-index: 1;
+        position: absolute;
+        top: 35%; /* Adjust the vertical position as needed */
+        left: 2%;
+        text-align: start;
+        /* margin-left: 2rem; */
+        color: white;
+        font-weight: 400;
+    }
 }
