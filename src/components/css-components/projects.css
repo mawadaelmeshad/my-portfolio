@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Josefin+Sans:ital,wght@1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;1,6..12,500;1,6..12,700&family=Playpen+Sans:wght@200;500&family=Quicksand:wght@400;500&display=swap');
+.projects{
+    font-family: 'Gabarito', sans-serif;
+    background-color: #faadad;
+}
+.projects .title{
+    font-size: 2rem;
+    color: white;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.projects .contain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6rem;
+    justify-content: center;
+}
+.projects .card{
+    max-width: fit-content;
+    width: 20rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    font-weight: 600;
+}
+.projects .card img{
+    height: 100%;
+    width: 100%;
+    filter: brightness(45%);
+}
+.projects .card .words{
+    color: wheat;
+    position: absolute;
+    top: 50%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+}
