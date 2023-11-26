@@ -1,39 +1,118 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Josefin+Sans:ital,wght@1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;1,6..12,500;1,6..12,700&family=Playpen+Sans:wght@200;500&family=Quicksand:wght@400;500&display=swap');
 .projects{
     font-family: 'Gabarito', sans-serif;
-    background-color: #faadad;
+    background-color: white;
+    justify-content: center;
+    overflow: hidden;
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
 .projects .title{
     font-size: 2rem;
-    color: white;
+    color: rgb(235, 111, 138);
     font-weight: 400;
     margin-top: 2rem;
     margin-bottom: 4rem;
 }
 .projects .contain{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 6rem;
     justify-content: center;
+    margin-left: 2rem;
 }
 .projects .card{
     max-width: fit-content;
-    width: 20rem;
+    width: 30rem;
+    height: 17rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: left;
     font-weight: 600;
 }
+.projects .right-aligned{
+    display: flex;
+    align-items: flex-end;
+}
 .projects .card img{
     height: 100%;
     width: 100%;
-    filter: brightness(45%);
+    filter: brightness(40%);
 }
 .projects .card .words{
-    color: wheat;
+    color: white;
     position: absolute;
-    top: 50%;
+    top: 40%;
     margin-left: 2rem;
     margin-right: 2rem;
-    text-align: center;
+    text-align: left;
+    font-size: 1.2rem;
+}
+.projects-button .github{
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: white;
+}
+.projects-button .github:hover{
+    color: rgb(235, 111, 138);
+}
+a.rn-btn {
+    color: #fff;
+    border-color: hsla(0,0%,100%,.3);
+}
+a.rn-btn, button.rn-btn {
+    padding: 0 23px;
+    height: 40px;
+    display: inline-block;
+    line-height: 34px;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 14px;
+    position: relative;
+    z-index: 2;
+    color: white;
+    letter-spacing: .2px;
+    text-transform: uppercase;
+}
+a.rn-btn:hover, button.rn-btn:hover{
+    border: 2px solid rgb(235, 111, 138);
+    background-color:rgb(235, 111, 138);
+    transition: .7s;
+}
+.row-divide{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.projects ul {
+    list-style: none; /* Remove default bullets */
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+.projects ul li{
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+.projects ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color:  rgb(235, 111, 138);
+    font-weight: 400; 
+    display: inline-block; 
+    width: 1rem; 
+    margin-left: -1em; 
+}
+@media(max-width : 726px){
+    .projects{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .row-divide{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width : 591px){
+    .title{
+        font-size: 1.7rem;
+    }
 }

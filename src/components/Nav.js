@@ -15,7 +15,6 @@ import {
     MDBDropdownItem,
     MDBCollapse,
 } from 'mdb-react-ui-kit';
-
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import './css-components/nav.css';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
@@ -36,22 +35,28 @@ function Navv() {
             aria-label='Toggle navigation'
             onClick={() => setShowBasic(!showBasic)}
             >
-            <MDBIcon icon='bars' fas />
+            <FontAwesomeIcon icon={["fa-solid", "fa-bars"]} style={{ color: 'pink' }} />
+
             </MDBNavbarToggler>
 
             <MDBCollapse navbar show={showBasic}>
             <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0'>
+                {/* <MDBNavbarItem>
+                <FontAwesomeIcon icon={faLinkedinIn} />
+                </MDBNavbarItem> */}
+
                 <MDBNavbarItem>
                 <MDBNavbarLink href='#about' className='navitem'>About</MDBNavbarLink>
                 </MDBNavbarItem>
                 <MDBNavbarItem>
-                <MDBNavbarLink href='#' className='navitem'>Projects</MDBNavbarLink>
+                <MDBNavbarLink href='#projects' className='navitem'>Projects</MDBNavbarLink>
                 </MDBNavbarItem>
                 <MDBNavbarItem>
-                <MDBNavbarLink href='#' className='navitem'>Contact</MDBNavbarLink>
+                <MDBNavbarLink href='#contact' className='navitem'>Contact</MDBNavbarLink>
                 </MDBNavbarItem>
 
                 <MDBNavbarItem>
+                <div class="projects-button"><a class="rn-btn" href="https://drive.google.com/file/d/1OB67ycFzwATaUgpvFfVI0hozXy_j0UQU/view?usp=sharing" target="_blank">Resume</a></div>
                 {/* <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
                     <div>
                     <a href='' className='me-4 text-reset'>

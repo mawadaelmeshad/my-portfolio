@@ -4,12 +4,20 @@
     overflow: hidden;
     /* align-items: center; */
 }
+.about .contain-about{
+    display: flex;
+    flex-direction: row;
+}
 .about .contain{
     margin-left: 2rem;
     margin-right: 2rem;
     display: flex;
     flex-direction: column;
     gap: 0rem;
+}
+.about img{
+    width: 20rem;
+    height: 15rem;
 }
 .title{
     font-size: 2rem;
@@ -23,6 +31,9 @@
     /* width: 60%; */
     text-align: left;
     font-size: 1.3rem;
+}
+.about .contain .dash{
+    color: rgb(235, 111, 138);
 }
 .about .contain-tech{
     /* width: 60%; */
@@ -50,5 +61,13 @@
 }
 
 @media(max-width :981px){
-  
+    .about .contain-about{
+        flex-wrap: wrap;
+        align-items: flex-end;
+    }
+}
+@media(max-width : 591px){
+    .title{
+        font-size: 1.7rem;
+    }
 }

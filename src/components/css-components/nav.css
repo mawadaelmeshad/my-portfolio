@@ -13,16 +13,52 @@
 }
 .custom-nav span{
     padding-left: .4rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding-top: .3rem;
     color: rgb(235, 87, 119);
 }
 .navitem{
-    font-family: 'Cookie', sans-serif !important;
-    font-size: 1.6rem;
+    font-family: 'Gabarito', sans-serif;
+    font-size: 1.2rem;
     color: rgb(99, 98, 98);
-    font-weight: 500;
+    font-weight: 400;
 }
 .navitem:hover{
     color: rgb(235, 87, 119);
+}
+a.rn-btn {
+    color: rgb(235, 111, 138);
+    border-color: rgb(235, 111, 138);
+}
+a.rn-btn, button.rn-btn {
+    padding: 0 23px;
+    height: 40px;
+    display: inline-block;
+    line-height: 34px;
+    border: 2px solid rgb(235, 111, 138);
+    border-radius: 6px;
+    font-size: 14px;
+    position: relative;
+    z-index: 2;
+    color: rgb(235, 111, 138);
+    letter-spacing: .2px;
+    text-transform: uppercase;
+}
+nav a.rn-btn, button.rn-btn{
+    font-family: 'Gabarito', sans-serif;
+    border: 2px solid rgb(235, 111, 138);
+    background-color:rgb(235, 111, 138);
+    transition: .7s;
+    border-radius: 6px;
+    margin-left: 1rem;
+    border: 2px solid rgb(235, 111, 138);
+    background-color:white;
+    color: rgb(235, 111, 138);
+    margin-top: .2rem;
+}
+nav a.rn-btn:hover, button.rn-btn:hover{
+    border: 2px solid rgb(235, 111, 138);
+    background-color:rgb(235, 111, 138);
+    color: white;
+    transition: ease .2s;
 }
