@@ -38,7 +38,6 @@ function Navv() {
             <FontAwesomeIcon icon={["fa-solid", "fa-bars"]} style={{ color: 'pink' }} />
 
             </MDBNavbarToggler>
-
             <MDBCollapse navbar show={showBasic}>
             <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0'>
                 {/* <MDBNavbarItem>

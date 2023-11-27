@@ -73,7 +73,7 @@
         display: inline-block;
         position: relative;
         width: 40rem;
-        left: 20%;
+        left: 40%;
         top: 1%;
         margin-top: -7rem;
     }
@@ -83,7 +83,7 @@
 @media(max-width :536px){
     .myphoto{
         position: relative;
-        left: 9%;
+        left: 5%;
         /* top: 1%; 
         left: 50%;
         margin-top: -7rem; */
@@ -94,7 +94,7 @@
         z-index: 1;
         position: absolute;
         top: 35%; /* Adjust the vertical position as needed */
-        left: 2%;
+        left: -1%;
         text-align: start;
         /* margin-left: 2rem; */
         color: white;
