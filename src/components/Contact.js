@@ -19,7 +19,7 @@ function Contact(){
                 <div className="card">
                     <FontAwesomeIcon icon={faPhone} className="icon-contact"/>
                     <h2>Phone</h2>
-                    <h3>+2012001932</h3>
+                    <h3>+201002323458</h3>
                 </div>
             </div>
         </div>

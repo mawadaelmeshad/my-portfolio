@@ -5,8 +5,6 @@ import healthy from "../images/healthy.png";
 import elevate from "../images/elevate.png";
 import mega from "../images/megaportfolio.png";
 import edu from "../images/eduverse.png";
-
-
 import './css-components/projects.css';
 import ImageSlider from "./ImageSlider";
 import React from 'react';
@@ -30,10 +28,10 @@ function Projects(){
                         </div>
                     </div>
                     <ul>
-                                <li>Designed and developed a self-awareness website aimed at helping users on their journey to self-discovery.
+                                <li>Designed and developed a visually appealing healthy food landing page.
     </li>
-    <li>Utilized HTML, CSS, Bootstrap, and JavaScript to create an interactive and engaging user experience.</li>
-    <li>Integrated a range of helpful resources, including articles and exercises, to provide users with valuable insights</li>
+    <li>Utilized HTML and CSS to create an interactive and engaging user experience. </li>
+    <li>Implemented responsive design techniques using CSS media queries to ensure a seamless user experience across devices.</li>
                     </ul>
                 </div>
                 <div className="row-divide">
@@ -41,7 +39,7 @@ function Projects(){
                                         <li>Designed and developed a self-awareness website aimed at helping users on their journey to self-discovery.
             </li>
             <li>Utilized HTML, CSS, Bootstrap, and JavaScript to create an interactive and engaging user experience.</li>
-            <li>Integrated a range of helpful resources, including articles and exercises, to provide users with valuable insights</li>
+            <li>Integrated a range of helpful resources, including articles and exercises, to provide users with valuable insights.</li>
                     </ul>
                     <div className="card">
                         <img src={elevate} alt="de" />
@@ -63,10 +61,10 @@ function Projects(){
                         </div>
                     </div>
                     <ul>
-                                    <li>Designed and developed a self-awareness website aimed at helping users on their journey to self-discovery.
+                                    <li>Designed and developed a captivating portfolio website for my team (Mega).
         </li>
         <li>Utilized HTML, CSS, Bootstrap, and JavaScript to create an interactive and engaging user experience.</li>
-        <li>Integrated a range of helpful resources, including articles and exercises, to provide users with valuable insights</li>
+        <li>Incorporated scroll animations and smooth scrolling functionalities using JavaScript to enhance navigation fluidity.</li>
                     </ul>
                 </div>     
 
