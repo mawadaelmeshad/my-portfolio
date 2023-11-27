@@ -20,7 +20,8 @@
     flex-wrap: wrap;
     gap: 6rem;
     justify-content: center;
-    margin-left: 2rem;
+    align-items: center;
+
 }
 .projects .card{
     min-width: fit-content;
