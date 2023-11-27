@@ -70,4 +70,7 @@
     .title{
         font-size: 1.7rem;
     }
+    .about .contain p{
+        font-size: 1.1rem;
+    }
 }
