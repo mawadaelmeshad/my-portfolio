@@ -5,8 +5,8 @@
     font-family: 'Cookie', sans-serif !important;
     font-size: 1.9rem;
     color: rgb(235, 87, 119);
-    padding-right: 2rem;
-    padding-left: 1rem;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
     z-index: 1;
 }
 .gray-menu .navbar-toggler-icon {
@@ -19,6 +19,8 @@
 }
 .logo-photo{
     width: 4rem;
+    padding-left: 0;
+    margin-left: 0;
 }
 .navitem{
     font-family: 'Gabarito', sans-serif;
