@@ -22,6 +22,9 @@
     padding-left: 0;
     margin-left: 0;
 }
+.logo-photo img:hover{
+    opacity: -1;
+}
 .navitem{
     font-family: 'Gabarito', sans-serif;
     font-size: 1.2rem;

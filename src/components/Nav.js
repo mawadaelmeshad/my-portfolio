@@ -21,7 +21,7 @@ import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import mylogo from '../images/mylogo.png';
+import mylogo from '../images/mylogo2.png';
 
 
 function Navv() {
@@ -38,7 +38,7 @@ function Navv() {
                 aria-label='Toggle navigation'
                 onClick={() => setShowBasic(!showBasic)}
                 >
-                    <FontAwesomeIcon icon={faBars} style={{ color: 'pink', fontSize: '1.9rem' }} />
+                    <FontAwesomeIcon icon={faBars} style={{ color: ' rgb(235, 87, 119);', fontSize: '1.9rem' }} />
                 </MDBNavbarToggler>
                 <MDBCollapse navbar show={showBasic}>
                 <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0'>
