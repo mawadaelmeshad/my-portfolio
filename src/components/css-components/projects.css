@@ -95,6 +95,8 @@ a.rn-btn:hover, button.rn-btn:hover{
     text-align: left;
     font-size: 1.1rem;
     font-weight: 200;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .projects ul li{
     padding-bottom: 1rem;

@@ -30,6 +30,8 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 .contact .contain .card{
     width: 20rem;
