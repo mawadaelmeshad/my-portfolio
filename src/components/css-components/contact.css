@@ -34,6 +34,7 @@
 .contact .contain .card{
     width: 20rem;
     height: 20rem;
+    min-height: fit-content;
     padding: 2rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 0.7s ease;
@@ -58,11 +59,16 @@
     font-size: 2rem;
     color: pink;
 }
-@media(max-width : 591px){
-    .title{
+@media(max-width:591px){
+    .contact .title{
         font-size: 1.7rem;
     }
     #removed{
         display: none;
     }
+    .contact .contain .card{
+        width: 17rem;
+        height: 17rem;
+    }
 }
+

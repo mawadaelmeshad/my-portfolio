@@ -20,7 +20,7 @@ function Projects(){
                         <div className="words">
                             <h2>Healthy</h2>
                             <p>Landing page</p>
-                            <div class="projects-button"><a class="rn-btn" href="https://mawadaelmeshad.github.io/Landing_Page/" target="_blank">View</a><a href="https://github.com/mawadaelmeshad/Landing_Page" target="_blank"><FontAwesomeIcon icon={faGithub} className="github"/></a></div> 
+                            <div class="projects-buttonn"><a class="rn-btn" href="https://mawadaelmeshad.github.io/Landing_Page/" target="_blank">View</a><a href="https://github.com/mawadaelmeshad/Landing_Page" target="_blank"><FontAwesomeIcon icon={faGithub} className="github"/></a></div> 
                         </div>
                     </div>
                     <ul>
@@ -42,7 +42,7 @@ function Projects(){
                         <div className="words">
                             <h2>Elevate Yourself</h2>
                             <p>Website</p>
-                            <div class="projects-button"><a class="rn-btn" href="https://mawadaelmeshad.github.io/Elevate-Yourself/" target="_blank">View</a><a href="https://github.com/mawadaelmeshad/Elevate-Yourself" target="_blank"><FontAwesomeIcon icon={faGithub} className="github"/></a>
+                            <div class="projects-buttonn"><a class="rn-btn" href="https://mawadaelmeshad.github.io/Elevate-Yourself/" target="_blank">View</a><a href="https://github.com/mawadaelmeshad/Elevate-Yourself" target="_blank"><FontAwesomeIcon icon={faGithub} className="github"/></a>
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ function Projects(){
                         <div className="words">
                             <h2>Mega portfolio</h2>
                             <p>website</p>
-                            <div class="projects-button"><a class="rn-btn" href="https://megateam.netlify.app/" target="_blank">View</a><a href="https://github.com/mawadaelmeshad/mega" target="_blank"><FontAwesomeIcon icon={faGithub} className="github"/></a></div>
+                            <div class="projects-buttonn"><a class="rn-btn" href="https://megateam.netlify.app/" target="_blank">View</a><a href="https://github.com/mawadaelmeshad/mega" target="_blank"><FontAwesomeIcon icon={faGithub} className="github"/></a></div>
                         </div>
                     </div>
                     <ul>
@@ -77,7 +77,7 @@ function Projects(){
                         <div className="words">
                             <h2>EduVerse</h2>
                             <p>website</p>
-                            <div class="projects-button"><a class="rn-btn" href="https://mawadaelmeshad.github.io/Edu_Verse/" target="_blank">View</a><a href="https://github.com/mawadaelmeshad/Edu_Verse" target="_blank"><FontAwesomeIcon icon={faGithub} className="github"/></a></div>
+                            <div class="projects-buttonnn"><a class="rn-btn" href="https://mawadaelmeshad.github.io/Edu_Verse/" target="_blank">View</a><a href="https://github.com/mawadaelmeshad/Edu_Verse" target="_blank"><FontAwesomeIcon icon={faGithub} className="github"/></a></div>
                         </div>
                     </div>
                 </div>

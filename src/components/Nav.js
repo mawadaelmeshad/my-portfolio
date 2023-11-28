@@ -38,7 +38,7 @@ function Navv() {
                 aria-label='Toggle navigation'
                 onClick={() => setShowBasic(!showBasic)}
                 >
-                    <FontAwesomeIcon icon={faBars} style={{ color: ' rgb(235, 87, 119);', fontSize: '1.9rem' }} />
+                    <FontAwesomeIcon icon={faBars} style={{ color: '#eb5777', fontSize: '1.9rem' }} />
                 </MDBNavbarToggler>
                 <MDBCollapse navbar show={showBasic}>
                 <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0'>
@@ -52,7 +52,7 @@ function Navv() {
                     <MDBNavbarLink href='#contact' className='navitem'>Contact</MDBNavbarLink>
                     </MDBNavbarItem>
                     <MDBNavbarItem>
-                    <div class="projects-button"><a class="rn-btn" href="https://drive.google.com/file/d/1OB67ycFzwATaUgpvFfVI0hozXy_j0UQU/view?usp=sharing" target="_blank">Resume</a></div>
+                    <div class="projects-button"><a class="rn-btn resume-btn" href="https://drive.google.com/file/d/1OB67ycFzwATaUgpvFfVI0hozXy_j0UQU/view?usp=sharing" target="_blank">Resume</a></div>
                     </MDBNavbarItem>
                 </MDBNavbarNav>
                 </MDBCollapse>
