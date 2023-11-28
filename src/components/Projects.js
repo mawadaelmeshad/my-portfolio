@@ -77,7 +77,7 @@ function Projects(){
                         <div className="words">
                             <h2>EduVerse</h2>
                             <p>website</p>
-                            <div class="projects-buttonnn"><a class="rn-btn" href="https://mawadaelmeshad.github.io/Edu_Verse/" target="_blank">View</a><a href="https://github.com/mawadaelmeshad/Edu_Verse" target="_blank"><FontAwesomeIcon icon={faGithub} className="github"/></a></div>
+                            <div class="projects-buttonn"><a class="rn-btn" href="https://mawadaelmeshad.github.io/Edu_Verse/" target="_blank">View</a><a href="https://github.com/mawadaelmeshad/Edu_Verse" target="_blank"><FontAwesomeIcon icon={faGithub} className="github"/></a></div>
                         </div>
                     </div>
                 </div>
