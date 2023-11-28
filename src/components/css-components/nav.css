@@ -10,7 +10,7 @@
     z-index: 1;
 }
 .gray-menu .navbar-toggler-icon {
-    background-color: gray;
+    background-color:rgb(235, 87, 119);
 }
 .custom-nav span{
     font-size: 1rem;
