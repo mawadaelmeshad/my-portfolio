@@ -30,7 +30,7 @@ function Navv() {
     return (
         <MDBNavbar expand='lg' light bgColor='light'>
             <MDBContainer fluid>
-                <MDBNavbarBrand href='#' className='custom-nav'>Mawadah</MDBNavbarBrand>
+                <MDBNavbarBrand href='#' className='custom-nav'>Mawadah..</MDBNavbarBrand>
 
                 <MDBNavbarToggler
                 aria-controls='navbarSupportedContent'
