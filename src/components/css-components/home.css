@@ -20,6 +20,7 @@
     left: 50%;
     top: 1%;
     margin-top: -7rem;
+    z-index: 0;
     /* top: 1%; 
     left: 30rem;
     margin-top: -7rem;
@@ -39,7 +40,7 @@
     margin-left: 2rem;
 }
 .contain-words p{
-    color: rgb(99, 98, 98);
+    color: white;
     font-size: 1.3rem;
     text-transform: capitalize;
 }
@@ -50,6 +51,7 @@
     color: rgb(235, 87, 119);
     font-weight: 600;
     font-size: 2.5rem;
+    border-color:yellow;
 
 }
 @media(min-width :961px){
@@ -78,18 +80,22 @@
         top: 1%;
         margin-top: -7rem;
     }
+    .contain-words{
+        top: 4%; /* Adjust the vertical position as needed */
+    }
     
 
 }
 @media(max-width :536px){
     .myphoto{
         position: relative;
-        left: 1%;
+        left: 0%;
         /* top: 1%; 
         left: 50%;
         margin-top: -7rem; */
         width: 35rem;
         object-fit: cover; 
+        filter: brightness(40%);
     }
     .contain-words{
         z-index: 1;

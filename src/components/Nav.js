@@ -21,7 +21,7 @@ import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-
+import mylogo from '../images/mylogo.png';
 
 
 function Navv() {
@@ -30,7 +30,7 @@ function Navv() {
     return (
         <MDBNavbar expand='lg' light bgColor='light'>
             <MDBContainer fluid>
-                <MDBNavbarBrand href='#' className='custom-nav'>Mawadah..</MDBNavbarBrand>
+                <MDBNavbarBrand href='#' className='custom-nav'> <img src={mylogo} alt='logo' className='logo-photo'/></MDBNavbarBrand>
 
                 <MDBNavbarToggler
                 aria-controls='navbarSupportedContent'

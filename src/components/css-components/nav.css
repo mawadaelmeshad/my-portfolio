@@ -5,18 +5,20 @@
     font-family: 'Cookie', sans-serif !important;
     font-size: 1.9rem;
     color: rgb(235, 87, 119);
-    padding-left: 2rem;
-    margin-right: 1rem;
+    padding-right: 2rem;
+    padding-left: 1rem;
     z-index: 1;
 }
 .gray-menu .navbar-toggler-icon {
     background-color: gray;
 }
 .custom-nav span{
-    padding-left: .4rem;
     font-size: 1rem;
     padding-top: .3rem;
     color: rgb(235, 87, 119);
+}
+.logo-photo{
+    width: 4rem;
 }
 .navitem{
     font-family: 'Gabarito', sans-serif;
