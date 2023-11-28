@@ -7,6 +7,7 @@
     color: rgb(99, 98, 98);
     padding-left: 2rem;
     margin-right: 1rem;
+    z-index: 1;
 }
 .gray-menu .navbar-toggler-icon {
     background-color: gray;

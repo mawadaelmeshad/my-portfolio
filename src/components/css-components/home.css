@@ -5,6 +5,7 @@
     height: fit-content;
     margin-top: 0;
     overflow: hidden;
+    position: relative;
 }
 .home .contain{
     padding-top: 7rem;
@@ -29,7 +30,7 @@
 .contain-words{
     z-index: 1;
     position: absolute;
-    top: 35%; /* Adjust the vertical position as needed */
+    top: 29%; /* Adjust the vertical position as needed */
     left: 0;
     text-align: start;
     /* margin-left: 2rem; */
