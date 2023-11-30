@@ -15,7 +15,7 @@ function Home(){
                     <p className="wow slideInLeft" data-wow-duration="1s" data-wow-delay=".2s">welcome to my world . . .</p>
                     <h2>Hi, I am Mawadah Elmashad <br></br><span>Front end developer</span><h2>based in Mansoura.</h2></h2>
                 </div>
-            <img src={myphoto} alt="myphoto" className="myphoto"/>
+                    <img src={myphoto} alt="myphoto" className="myphoto"/>
             </div>
         </div>
     )
