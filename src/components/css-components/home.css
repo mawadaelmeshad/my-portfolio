@@ -2,7 +2,7 @@
 .home{
     font-family: 'Gabarito', sans-serif;
     background-color: #faadad;
-    height: fit-content;
+    height:fit-content;
     margin-top: 0;
     overflow: hidden;
     position: relative;
@@ -16,8 +16,8 @@
 .myphoto{
     display: inline-block;
     position: relative;
-    width: 40rem;
-    left: 50%;
+    width: 10rem;
+    left: 60%;
     top: 1%;
     margin-top: -7rem;
     z-index: 0;
@@ -60,7 +60,7 @@
     .myphoto{
         display: inline-block;
         position: relative;
-        width: 40rem;
+        width: 39rem;
         left: 50%;
         top: 1%;
         margin-top: -7rem;

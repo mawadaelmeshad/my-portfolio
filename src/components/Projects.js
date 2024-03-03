@@ -2,7 +2,7 @@ import './css-components/about.css';
 import healthy from "../images/healthy.png";
 import elevate from "../images/elevate.png";
 import mega from "../images/megaportfolio.png";
-import edu from "../images/eduverse.png";
+import career from "../images/careerhub.png";
 import './css-components/projects.css';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Import FontAwesomeIcon from the correct package
@@ -67,17 +67,19 @@ function Projects(){
 
                 <div className="row-divide">
                     <ul>
-                                            <li>Designed and developed an e-learning website using HTML, CSS, and JavaScript.
+                                            <li>Created a website aimed at aiding users in their job search journey and utilized Netlify for hosting.
                 </li>
-                <li>The website features interactive quizzes and progress tracking for learners.</li>
-                <li>It also includes responsive design for seamless usage across various devices.</li>
+                <li>Seamless Sign-in and User Authentication: Implemented token-based authentication to ensure secure access for users.</li>
+                <li>Safeguarded routes from unauthorized access, allowing only authenticated users to view certain pages.</li>
+                <li>Integrated email verification and password reset features to enhance account security and user experience.</li>
+                <li>Enabled users to update their profiles easily and implemented a smooth logout feature for users.</li>
                     </ul>
                     <div className="card">
-                        <img src={edu} alt="de" />
+                        <img src={career} alt="careerhub" />
                         <div className="words">
-                            <h2>EduVerse</h2>
+                            <h2>CareerHub</h2>
                             <p>website</p>
-                            <div class="projects-buttonn"><a class="rn-btn" href="https://mawadaelmeshad.github.io/Edu_Verse/" target="_blank">View</a><a href="https://github.com/mawadaelmeshad/Edu_Verse" target="_blank"><FontAwesomeIcon icon={faGithub} className="github"/></a></div>
+                            <div class="projects-buttonn"><a class="rn-btn" href="https://careerhubb.netlify.app/" target="_blank">View</a><a href="https://github.com/mawadaelmeshad/careerhub" target="_blank"><FontAwesomeIcon icon={faGithub} className="github"/></a></div>
                         </div>
                     </div>
                 </div>
