@@ -52,7 +52,7 @@ function Navv() {
                     <MDBNavbarLink href='#contact' className='navitem'>Contact</MDBNavbarLink>
                     </MDBNavbarItem>
                     <MDBNavbarItem>
-                    <div class="projects-button"><a class="rn-btn resume-btn" href="https://drive.google.com/file/d/1OB67ycFzwATaUgpvFfVI0hozXy_j0UQU/view?usp=sharing" target="_blank">Resume</a></div>
+                    <div class="projects-button"><a class="rn-btn resume-btn" href="https://drive.google.com/file/d/1uC9i0Gmeu5RSshKEWhpySV0c3tyeq4xv/view?usp=sharing" target="_blank">Resume</a></div>
                     </MDBNavbarItem>
                 </MDBNavbarNav>
                 </MDBCollapse>
