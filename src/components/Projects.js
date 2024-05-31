@@ -20,7 +20,7 @@ function Projects(){
             <div className="title">Featured projects</div>
             <div className="contain">
             <div className="row-divide">
-                    <div className="card">
+                    <div className="card wow slideInLeft">
                         <img src={mega} alt="de" />
                         <div className="words">
                         <h2>Mega portfolio</h2>
@@ -48,7 +48,7 @@ function Projects(){
                 <li>Integrated email verification and password reset features to enhance account security and user experience.</li>
                 <li>Enabled users to update their profiles easily and implemented a smooth logout feature for users.</li>
                     </ul>
-                    <div className="card">
+                    <div className="card wow slideInRight">
                         <img src={career} alt="careerhub" />
                         <div className="words">
                         <h2>CareerHub</h2>
@@ -59,7 +59,7 @@ function Projects(){
                 </div>
 
                 <div className="row-divide">
-                    <div className="card">
+                    <div className="card wow slideInLeft">
                         <img src={healthy} alt="de" />
                         <div className="words">
                             <h2>Healthy</h2>
@@ -82,7 +82,7 @@ function Projects(){
                         <li>Utilized HTML, CSS, Bootstrap, and JavaScript to create an interactive and engaging user experience.</li>
                         <li>Integrated a range of helpful resources, including articles and exercises, to provide users with valuable insights.</li>
                     </ul>
-                    <div className="card">
+                    <div className="card wow slideInRight">
                         <img src={elevate} alt="de" />
                         <div className="words">
                             <h2>Elevate Yourself</h2>
@@ -95,7 +95,7 @@ function Projects(){
 
             
                 <div className="row-divide">
-                    <div className="card">
+                    <div className="card wow slideInLeft">
                         <img src={calculator} alt="de" />
                         <div className="words">
                             <h2>Calculator</h2>
@@ -117,7 +117,7 @@ function Projects(){
                         <li>City Search Functionality: Allows users to search for any city to quickly retrieve and display current weather conditions.</li>
                         <li>Provides real-time updates on temperature, humidity, and wind speed. </li>
                     </ul>
-                    <div className="card">
+                    <div className="card wow slideInRight">
                         <img src={weather} alt="de" />
                         <div className="words">
                             <h2>Weather App</h2>
@@ -129,7 +129,7 @@ function Projects(){
                 </div>
 
                 <div className="row-divide">
-                    <div className="card">
+                    <div className="card wow slideInLeft">
                         <img src={exclusive} alt="de" />
                         <div className="words">
                             <h2>Exclusive</h2>
