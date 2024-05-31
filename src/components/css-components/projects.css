@@ -20,7 +20,7 @@
 .projects .contain{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 6rem;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@
 .projects .card img{
     height: 100%;
     width: 100%;
-    filter: brightness(64%);
+    filter: brightness(62%);
 }
 .projects .card .words{
     color: white;
@@ -118,8 +118,7 @@ a.rn-btn:hover, button.rn-btn:hover{
     margin-left: -1em; 
 }
 @media(max-width : 726px){
-    .projects{
-    }
+ 
     .row-divide{
         flex-wrap: wrap;
     }

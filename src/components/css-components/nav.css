@@ -33,7 +33,8 @@
 .navitem{
     font-family: 'Gabarito', sans-serif;
     font-size: 1.2rem;
-    color: #615a5a;
+    color:  #953fc1; 
+    /* #615a5a; */
     font-weight: 400;
 }
 .navitem:hover{
@@ -62,7 +63,6 @@ a.rn-btn, button.rn-btn {
 }
 nav a.rn-btn, button.rn-btn{
     font-family: 'Gabarito', sans-serif;
-    background-color:r#C994e3;
     transition: .7s;
     border-radius: 6px;
     margin-left: 1rem;
