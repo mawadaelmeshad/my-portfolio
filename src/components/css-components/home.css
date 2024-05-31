@@ -1,87 +1,156 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Josefin+Sans:ital,wght@1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;1,6..12,500;1,6..12,700&family=Playpen+Sans:wght@200;500&family=Quicksand:wght@400;500&display=swap');
 .home{
     font-family: 'Gabarito', sans-serif;
-    background-color: #faadad;
-    height:fit-content;
+    background-color: #d5adec;
+    height:90vh;
+    min-height: fit-content;
     margin-top: 0;
     overflow: hidden;
     position: relative;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
-.home .contain{
-    padding-top: 7rem;
+.home .contain {
     display: flex;
     flex-direction: row;
-    gap: 13rem;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: space-between;
+    padding-top: 7rem;
 }
-.myphoto{
-    display: inline-block;
+.home .contain-img{
+    width: 250px;
+    height: 250px;
     position: relative;
-    width: 10rem;
-    left: 60%;
-    top: 1%;
-    margin-top: -7rem;
-    z-index: 0;
-    /* top: 1%; 
-    left: 30rem;
-    margin-top: -7rem;
-    width: 40rem;
-    object-fit: cover; 
-    z-index: 0; */
 }
+.home .contain-img::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    border: 2px solid #953fc1; /* Adjust the border color and width as needed */
+    box-sizing: border-box;
+    z-index: -1; /* Ensure the border is behind the image */
+}
+/* .home .contain-img:hover:before {
+    transform: translate(5px, 5px);
+    -webkit-transform: translate(5px, 5px);
+    -moz-transform: translate(5px, 5px);
+    -ms-transform: translate(5px, 5px);
+    -o-transform: translate(5px, 5px);
+}
+.home .contain-img :hover img {
+    transform: translate(-5px, -5px);
+    -webkit-transform: translate(-5px, -5px);
+    -moz-transform: translate(-5px, -5px);
+    -ms-transform: translate(-5px, -5px);
+    -o-transform: translate(-5px, -5px);
+} */
+.home .contain-img::before {
+    content: '';
+    position: absolute;
+    top: 13px;
+    left: 17px;
+    width: calc(100% + 2px);
+    height: calc(100% + 59px);
+    border: 2px solid #953fc1;
+    box-sizing: border-box;
+    z-index: 0;
+    border-radius: 8px;
+}
+.home .contain-img img {
+    border-radius: 8px;
+    width: 100%;
+    /* height: 100%; */
+    position: relative;
+    z-index: 1; /* Ensure the image is above the pseudo-element */
+    transform: translate(5px, 5px);
+    -webkit-transform: translate(5px, 5px);
+    -moz-transform: translate(5px, 5px);
+    -ms-transform: translate(5px, 5px);
+    -o-transform: translate(5px, 5px);
+    transition: transform 0.3s ease;
+    -webkit-transition: -webkit-transform 0.3s ease;
+    -moz-transition: -moz-transform 0.3s ease;
+    -ms-transition: -ms-transform 0.3s ease;
+    -o-transition: -o-transform 0.3s ease;
+}
+
+.home .contain-img:hover img {
+    transform: translate(-5px, -5px);
+    -webkit-transform: translate(-5px, -5px);
+    -moz-transform: translate(-5px, -5px);
+    -ms-transform: translate(-5px, -5px);
+    -o-transform: translate(-5px, -5px);
+}
+
 .contain-words{
     z-index: 1;
-    position: absolute;
-    top: 29%; /* Adjust the vertical position as needed */
     left: 0;
     text-align: start;
+    margin-top: 3rem;
     /* margin-left: 2rem; */
     color: white;
-    font-weight: 400;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    /* font-weight: 200; */
+    /* margin-left: 1.5rem;
+    margin-right: 1.5rem; */
 
 }
+/* .contain-words .projects-button{
+    background-color: #892eb7;
+    border: none;
+} */
 .contain-words p{
     color: white;
     font-size: 1.3rem;
     text-transform: capitalize;
 }
-.contain-words h2{
+.contain-words h4{
     font-size: 2.5rem;
+    font-weight: lighter;
 }
-.contain-words h2 span{
-    color: rgb(235, 87, 119);
-    font-weight: 600;
+.contain-words h4 span{
+    color: #953fc1;
+    font-weight: 300;
     font-size: 2.5rem;
     border-color:yellow;
 
 }
+.home .projects-btn{
+    background-color: #953fc1;
+    border: none;
+}
+
+.home .projects-btn:hover{
+    border: none;
+    opacity: .5;
+
+}
 @media(min-width :961px){
-    .myphoto{
+    /* .myphoto{
         display: inline-block;
         position: relative;
         width: 39rem;
         left: 50%;
         top: 1%;
         margin-top: -7rem;
-        /* top: 1%; 
-        left: 30rem;
-        margin-top: -7rem;
-        width: 40rem;
-        object-fit: cover; 
-        z-index: 0; */
-    }
+    
+    } */
 
     }
-@media(max-width :960px){
-    .myphoto{
-        display: inline-block;
-        position: relative;
-        width: 40rem;
-        left: 30%;
-        top: 1%;
-        margin-top: -7rem;
+@media(max-width :947px){
+    .contain-words{
+        top: 23%; /* Adjust the vertical position as needed */
     }
+    .contain-img{
+        display: none;
+    }
+    
+
+}
+@media(max-width :960px){
     .contain-words{
         top: 23%; /* Adjust the vertical position as needed */
     }
@@ -89,33 +158,13 @@
 
 }
 @media(max-width :536px){
-    .myphoto{
-        position: relative;
-        left: 0%;
-        /* top: 1%; 
-        left: 50%;
-        margin-top: -7rem; */
-        width: 35rem;
-        object-fit: cover; 
-        filter: brightness(40%);
-    }
-    .contain-words{
-        z-index: 1;
-        position: absolute;
-        top: 35%; /* Adjust the vertical position as needed */
-        left: -1%;
-        text-align: start;
-        /* margin-left: 2rem; */
-        color: white;
-        font-weight: 400;
-    }
     .contain-words p{
         font-size: 1.1rem;
     }
-    .contain-words h2{
+    .contain-words h4{
         font-size: 2.2rem;
     }
-    .contain-words h2 span{
+    .contain-words h4 span{
         font-size: 2.2rem;
     
     }

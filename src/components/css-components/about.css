@@ -2,15 +2,19 @@
 .about{
     font-family: 'Gabarito', sans-serif;
     overflow: hidden;
+    background-color: #e8daf1;
+    padding-left: 4rem;
+    padding-right: 4rem;
     /* align-items: center; */
 }
 .about .contain-about{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .about .contain{
-    margin-left: 2rem;
-    margin-right: 2rem;
+    /* margin-left: 2rem; */
+    /* margin-right: 2rem; */
     display: flex;
     flex-direction: column;
     gap: 0rem;
@@ -18,22 +22,39 @@
 .about img{
     width: 20rem;
     height: 15rem;
+
+}
+.about .myphoto::before{
+    position: absolute;
+    background-color: initial;
+    content: "";
+    height: 200%;
+    left: 15px;
+    top: 15px;
+    border: 1px solid #235a4c;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+
+    
 }
 .title{
     font-size: 2rem;
-    color: rgb(235, 111, 138);
+    color: #953fc1;
     text-transform: capitalize;
     font-weight: 400;
     margin-top: 2rem;
     margin-bottom: 4rem;
 }
 .about .contain p{
-    /* width: 60%; */
+    width: 90%;
     text-align: left;
     font-size: 1.3rem;
 }
 .about .contain .dash{
-    color: rgb(235, 111, 138);
+    color: #C994e3;
 }
 .about .contain-tech{
     /* width: 60%; */
@@ -41,7 +62,7 @@
 }
 .about .contain-tech h2{
     font-size: 1.4rem;
-    color: rgb(235, 111, 138);
+    color: #953fc1;
 }
 .about .contain-tech ul {
     list-style: none;
@@ -49,7 +70,7 @@
 }
 .about .contain-tech ul li::before {
     content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: rgb(235, 111, 138);
+    color: #C994e3;
     font-weight: 400; 
     display: inline-block; 
     width: 1rem; 
@@ -62,7 +83,7 @@
 
 @media(max-width :981px){
     .about .contain-about{
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
         align-items: flex-end;
     }
 }

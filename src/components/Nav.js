@@ -28,7 +28,7 @@ function Navv() {
     const [showBasic, setShowBasic] = useState(false);
 
     return (
-        <MDBNavbar expand='lg' light bgColor='light'>
+        <MDBNavbar expand='lg' className='mynav' style={{backgroundColor:"#f7eefd;"}}>
             <MDBContainer fluid>
                 <MDBNavbarBrand href='#' className='custom-nav'> <img src={mylogo} alt='logo' className='logo-photo'/></MDBNavbarBrand>
 
@@ -38,7 +38,7 @@ function Navv() {
                 aria-label='Toggle navigation'
                 onClick={() => setShowBasic(!showBasic)}
                 >
-                    <FontAwesomeIcon icon={faBars} style={{ color: '#eb5777', fontSize: '1.9rem' }} />
+                    <FontAwesomeIcon icon={faBars} style={{ color: '#d5adec;', fontSize: '1.9rem' }} className='toggler' />
                 </MDBNavbarToggler>
                 <MDBCollapse navbar show={showBasic}>
                 <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0'>

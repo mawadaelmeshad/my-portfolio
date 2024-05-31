@@ -3,6 +3,7 @@ import myphoto from "../images/Mawadah 2.jpg";
 import './css-components/home.css';
 import WOW from 'wow.js';
 import 'wow.js/css/libs/animate.css';
+import flower1 from '../images/flower.gif'
 function Home(){
         useEffect(() => {
             const wow = new WOW();
@@ -13,9 +14,14 @@ function Home(){
             <div className="contain">
                 <div className="contain-words">
                     <p className="wow slideInLeft" data-wow-duration="1s" data-wow-delay=".2s">welcome to my world . . .</p>
-                    <h2>Hi, I am Mawadah Elmashad <br></br><span>Front end developer</span><h2>based in Mansoura.</h2></h2>
+                    <h4>Hi, I am Mawadah Elmashad <br></br><span>Front end developer</span><h4>based in Mansoura.</h4></h4>
+                    <div class="projects-button"><a class="rn-btn projects-btn" href='#projects'>My Projects</a></div>
+
                 </div>
-                    <img src={myphoto} alt="myphoto" className="myphoto"/>
+                <div className="contain-img">
+                    <img src={myphoto} alt="myphoto"/>
+                </div>
+                    {/* <img src={flower1} alt="flower"className='myphoto' /> */}
             </div>
         </div>
     )

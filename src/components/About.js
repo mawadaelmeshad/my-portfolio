@@ -2,6 +2,8 @@ import './css-components/about.css';
 import flower1 from "../images/flower.gif";
 import flower2 from "../images/ecpc.jpg";
 import flower3 from "../images/gameofcoders.jpg";
+import myphoto from "../images/Mawadah 2.jpg";
+
 function About(){
     const images = [
         flower1,
@@ -31,6 +33,10 @@ function About(){
                     </div>
                 </div>
                 <img src={flower1} alt="flower" />
+                   {/* <div className="myphoto">
+                   <    img src={myphoto} alt="myphoto" />
+                   </div> */}
+
             </div>
         </div>
     )

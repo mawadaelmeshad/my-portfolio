@@ -38,7 +38,7 @@ function Footer() {
 
         <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
             Designed and Built by:
-            <a className='fw-bold mawada' href='https://www.linkedin.com/in/mawadah-elmashad-358b7322a/' style={{ color: 'rgb(235, 87, 119)' }}>
+            <a className='fw-bold mawada' href='https://www.linkedin.com/in/mawadah-elmashad-358b7322a/' style={{ color: ' #953fc1' }}>
     Mawadah Elmashad
 </a>
 
