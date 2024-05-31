@@ -106,7 +106,20 @@
     color:white;
     font-size: 1.3rem;
     text-transform: capitalize;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+    typing 6.5s steps(20, end);
+    margin-bottom: 1rem;
 }
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+
 .contain-words h4{
     font-size: 2.5rem;
     font-weight: 100;
