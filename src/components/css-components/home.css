@@ -98,10 +98,6 @@
     margin-right: 1.5rem; */
 
 }
-/* .contain-words .projects-button{
-    background-color: #892eb7;
-    border: none;
-} */
 .contain-words p{
     color:white;
     font-size: 1.3rem;
@@ -117,9 +113,7 @@
 @keyframes typing {
     from { width: 0 }
     to { width: 100% }
-  }
-  
-
+}
 .contain-words h4{
     font-size: 2.5rem;
     font-weight: 100;

@@ -54,7 +54,7 @@
     font-size: 1.3rem;
 }
 .about .contain .dash{
-    color: #C994e3;
+    color: #953fc1;
 }
 .about .contain-tech{
     /* width: 60%; */
@@ -70,7 +70,7 @@
 }
 .about .contain-tech ul li::before {
     content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #C994e3;
+    color: #953fc1;
     font-weight: 400; 
     display: inline-block; 
     width: 1rem; 
