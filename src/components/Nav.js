@@ -42,6 +42,9 @@ function Navv() {
                 </MDBNavbarToggler>
                 <MDBCollapse navbar show={showBasic}>
                 <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0'>
+                <MDBNavbarItem>
+                    <MDBNavbarLink href='#home' className='navitem'>Home</MDBNavbarLink>
+                    </MDBNavbarItem>
                     <MDBNavbarItem>
                     <MDBNavbarLink href='#about' className='navitem'>About</MDBNavbarLink>
                     </MDBNavbarItem>

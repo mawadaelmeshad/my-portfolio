@@ -10,7 +10,7 @@ function Home(){
             wow.init();
         }, []);
     return(
-        <div className="home">
+        <div className="home" id='home'>
             <div className="contain">
                 <div className="contain-words">
                     <p className="wow slideInLeft" data-wow-duration="1s" data-wow-delay=".2s">welcome to my world . . .</p>
