@@ -81,3 +81,9 @@ nav a.rn-btn:hover, button.rn-btn:hover{
     opacity: .5;
     transition: ease .2s;
 }
+ 
+@media(max-width:990px){
+    nav a.rn-btn, button.rn-btn{
+        margin-left:0;
+    }
+}
