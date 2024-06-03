@@ -2,7 +2,7 @@
 .home{
     font-family: 'Gabarito', sans-serif;
     background-color: #d5adec;
-    height:90vh;
+    height:95vh;
     min-height: fit-content;
     margin-top: 0;
     overflow: hidden;
@@ -16,7 +16,7 @@
     flex-wrap: wrap;
     gap: 5rem;
     justify-content: space-between;
-    padding-top: 7rem;
+    padding-top: 12rem;
 }
 .home .contain-img{
     width: 250px;

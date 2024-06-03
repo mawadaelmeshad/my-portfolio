@@ -14,7 +14,7 @@ function Home(){
             <div className="contain">
                 <div className="contain-words">
                     <p className="wow slideInLeft" data-wow-duration="1s" data-wow-delay=".2s">welcome to my world . . .</p>
-                    <h4>Hi, I am <span>Mawadah Elmashad</span> <br></br><span>Front end developer</span><h4>I build websites.</h4></h4>
+                    <h4>Hi, I am Mawadah Elmashad<br/><span>Front end developer</span><h4>I build websites.</h4></h4>
                     <div class="projects-button"><a class="rn-btn projects-btn" href='#projects'>My Projects</a></div>
 
                 </div>

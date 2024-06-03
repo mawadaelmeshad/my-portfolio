@@ -28,7 +28,7 @@ function Navv() {
     const [showBasic, setShowBasic] = useState(false);
 
     return (
-        <MDBNavbar expand='lg' className='mynav' style={{backgroundColor:"#f7eefd;"}}>
+        <MDBNavbar expand='lg' className='mynav'>
             <MDBContainer fluid>
                 <MDBNavbarBrand href='#' className='custom-nav'> <img src={mylogo} alt='logo' className='logo-photo'/></MDBNavbarBrand>
 

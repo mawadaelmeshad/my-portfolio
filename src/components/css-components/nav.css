@@ -5,6 +5,10 @@
     background-color: #efe8f4;
     padding-left: 2rem;
     padding-right: 2rem;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
 }
 .custom-nav{
     font-family: 'Gabarito', sans-serif;
@@ -35,6 +39,7 @@
     font-size: 1.2rem;
     color:  #953fc1; 
     /* #615a5a; */
+    /* color:  #615a5a; */
     font-weight: 400;
 }
 .navitem:hover{
