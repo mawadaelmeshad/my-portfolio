@@ -27,7 +27,7 @@ function Projects(){
 
         
                             <p>website</p>
-                            <div class="projects-buttonn"><a class="rn-btn" href="https://megateam.netlify.app/" target="_blank">View</a><a href="https://github.com/mawadaelmeshad/mega" target="_blank"><FontAwesomeIcon icon={faGithub} className="github"/></a></div>
+                            <div class="projects-buttonn"><a class="rn-btn" href="https://mega-ecru.vercel.app/" target="_blank">View</a><a href="https://github.com/mawadaelmeshad/mega" target="_blank"><FontAwesomeIcon icon={faGithub} className="github"/></a></div>
                         </div>
                     </div>
                     <ul>
@@ -53,7 +53,7 @@ function Projects(){
                         <div className="words">
                         <h2>CareerHub</h2>
                             <p>website</p>
-                            <div class="projects-buttonn"><a class="rn-btn" href="https://careerhubb.netlify.app/" target="_blank">View</a><a href="https://github.com/mawadaelmeshad/careerhub" target="_blank"><FontAwesomeIcon icon={faGithub} className="github"/></a></div>
+                            <div class="projects-buttonn"><a class="rn-btn" href="https://careerhub-sand.vercel.app/" target="_blank">View</a><a href="https://github.com/mawadaelmeshad/careerhub" target="_blank"><FontAwesomeIcon icon={faGithub} className="github"/></a></div>
                         </div>
                     </div>
                 </div>
@@ -139,7 +139,7 @@ function Projects(){
                         </div>
                     </div>
                     <ul>
-                        <li>Developed an e-commerce website using React JS with a sleek design inspired by Figma.</li>
+                        <li>Currently Developing an e-commerce website using React JS with a sleek design inspired by Figma.</li>
                         <li>Integrated with the Fake Store API to dynamically display products and manage inventory.</li>
                         <li>Ensured an intuitive and engaging shopping experience with responsive design and easy navigation.</li>
                     </ul>
