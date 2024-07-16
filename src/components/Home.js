@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import myphoto from "../images/Mawadah 2.jpg";
+import myphoto from "../images/Mawadah 2 (2).jpg";
 import './css-components/home.css';
 import WOW from 'wow.js';
 import 'wow.js/css/libs/animate.css';
